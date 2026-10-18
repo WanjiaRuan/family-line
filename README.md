@@ -4,9 +4,15 @@
 
 Family Line connects what a family knows about home with an older relative’s questions. Family members prepare household information through a conversational dashboard. The older relative calls a Guava voice agent for guidance. Conversations and requests return to the dashboard so family members can understand what happened and pick up the next step.
 
-**Case status:** presented and wrapped up on **October 17, 2026**, as confirmed by the project owner. This repository preserves the working local prototype, its design decisions, demonstration materials and verification notes. The demo video has not been supplied yet; its reserved location is [`demo/video/`](demo/video/README.md).
+**Case status:** presented and wrapped up on **October 17, 2026**, as confirmed by the project owner. This repository preserves the working local prototype, its design decisions, demonstration materials and verification notes. The final recording was added on **October 18, 2026** and is available below.
 
-![Family Line: everyday help through a familiar phone call](artifacts/family-line-opening-story.png)
+## Demo video
+
+**[Watch the full Family Line demo — 3:54](demo/video/family-line-demo.mp4)**
+
+[![Family Line: watch the demo](artifacts/family-line-opening-story.png)](demo/video/family-line-demo.mp4)
+
+[Short slogan clip — 3 seconds](demo/video/family-line-slogan.mp4) · [Video files and recording details](demo/video/README.md)
 
 ## Why we built it
 
@@ -90,7 +96,7 @@ README.md                Current project entry point
 RUNBOOK.md               Setup and operating instructions
 USER_FLOW.md             Product workflow and two-sided dashboard rationale
 docs/                    Architecture, features, case study and project history
-demo/video/              Reserved folder for the final demo recording
+demo/video/              Final demo recording and short slogan clip
 tests/                   Isolated local tests
 main.todo.py             Earlier todo-learning prototype
 main.original.py         Original scaffold retained for reference

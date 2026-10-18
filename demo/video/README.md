@@ -1,20 +1,15 @@
-# Demo video
+# Demo videos
 
-**Status: awaiting the final recording.** The project owner confirmed the presentation is complete; no video file had been supplied at the October 17 wrap-up.
+The project owner supplied these recordings on **October 18, 2026**, following the completed presentation. Both original MP4 files are included unchanged in this private repository.
 
-Drop the recording here on this machine:
+| Recording | Duration | Resolution | File size |
+|---|---|---|---|
+| [Full Family Line demo](family-line-demo.mp4) | 3:54 (233.84 seconds) | 960 × 544 | 13,171,119 bytes |
+| [Short slogan clip](family-line-slogan.mp4) | 3.14 seconds | 1280 × 720 | 83,488 bytes |
 
-```text
-/Users/rbc/demo-agent/demo/video/family-line-demo.mp4
-```
+Both files contain H.264 video and AAC audio. Open a recording link to view or download the original. The project’s [main README](../../README.md#demo-video) also links directly to the full demo.
 
-MP4 is preferred; MOV or WebM can also be received. Keep the original file. This folder is the stable place for the project video, not a new runtime upload destination.
+No transcoding, editing or replacement of the originals was performed. These two files are tracked normally in Git; other recording drafts remain ignored.
 
-Video files are initially ignored by Git so a large original does not accidentally enter ordinary repository history. Once supplied, choose a suitable repository asset, Git LFS or release download based on its size, and replace the pending status below with the actual link. No upload, conversion or video edit has happened yet.
-
-| Item | Status |
-|---|---|
-| Original recording | Pending |
-| Shareable video / repository link | Pending |
-| Script | [Four-minute video plan](../../VIDEO_SCRIPT_4MIN.md) |
-| Presentation | [Solo script](../../PRESENTATION_SCRIPT.md) |
+- [Four-minute video script and shot list](../../VIDEO_SCRIPT_4MIN.md)
+- [Solo presentation](../../PRESENTATION_SCRIPT.md)

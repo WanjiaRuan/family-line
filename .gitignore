@@ -22,8 +22,11 @@ todos.jsonl
 # Local reference download, not part of the authored project
 guava-docs.md
 
-# Recording files are added separately after choosing Git/LFS or a release asset
+# Keep other recording drafts local; track the two supplied final clips
 /demo/video/*.mp4
 /demo/video/*.mov
 /demo/video/*.m4v
 /demo/video/*.webm
+
+!/demo/video/family-line-demo.mp4
+!/demo/video/family-line-slogan.mp4

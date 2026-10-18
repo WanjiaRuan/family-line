@@ -2,7 +2,11 @@
 
 ## Case completion
 
-On October 17, 2026, the project owner stated that the team had finished presenting and requested this wrap-up. The recording itself has not been provided yet. Presentation completion is user-reported; no audience outcomes or product adoption are inferred.
+On October 17, 2026, the project owner stated that the team had finished presenting and requested this wrap-up. The recording was not supplied at the initial wrap-up; the owner provided it on October 18, 2026. Presentation completion is user-reported; no audience outcomes or product adoption are inferred.
+
+## October 18 recording update
+
+The full demo and short slogan MP4s were supplied by the owner and added unchanged. Local `ffprobe` inspection read the expected H.264/AAC streams and durations (233.84 seconds and 3.136 seconds). README and visual/case indexes now point to the recordings. This was a media/documentation update; application tests and live calls were not repeated. Metadata checks do not constitute a full audiovisual content review.
 
 ## Wrap-up checks performed
 

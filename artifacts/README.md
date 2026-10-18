@@ -1,6 +1,6 @@
 # Visual and presentation assets
 
-All existing authored visuals are retained. The October 17 presentation is complete; screenshots below are historical captures, not a live service-status check. The full demo recording is pending in [`demo/video/`](../demo/video/README.md).
+All existing authored visuals are retained. The October 17 presentation is complete; screenshots below are historical captures, not a live service-status check. The [full demo recording and short slogan clip](../demo/video/README.md) were added on October 18, 2026.
 
 ## Current presentation images
 

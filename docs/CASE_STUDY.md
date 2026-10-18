@@ -2,7 +2,7 @@
 
 ## Outcome and scope
 
-The project owner confirmed the presentation was completed on October 17, 2026 and requested that this case be wrapped up. The result is a local prototype, a fictional household demonstration and a set of presentation assets. No adoption, usability-study result, business traction or clinical benefit is claimed. The final recording is still pending in `demo/video/`.
+The project owner confirmed the presentation was completed on October 17, 2026 and requested that this case be wrapped up. The result is a local prototype, a fictional household demonstration and a set of presentation assets. No adoption, usability-study result, business traction or clinical benefit is claimed. The [final demo recording](../demo/video/family-line-demo.mp4) and [short slogan clip](../demo/video/family-line-slogan.mp4) were supplied and archived on October 18, 2026.
 
 ## The everyday problem
 
