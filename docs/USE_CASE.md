@@ -1,0 +1,3 @@
+# Use case — 100 words
+
+Family Line helps older adults get everyday support through a familiar phone call. When June needs help using her television and her granddaughter Emma cannot answer, she calls Family Line. Using household photos and notes previously provided by Emma, the Guava voice agent asks clarifying questions and guides June through identifying the remote and finding the right button. If she still needs help, June can leave a request for Emma. Our application saves the conversation and request in the family dashboard, giving Emma concrete context about what happened, what was tried, and how she can help when she is available.

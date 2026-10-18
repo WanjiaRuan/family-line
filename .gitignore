@@ -1,0 +1,29 @@
+# Local runtimes and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+
+# Credentials, account binding, uploads and real call history
+.env
+.env.*
+!.env.example
+data/
+guava.toml
+.provider.json
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+*.log
+todos.jsonl
+
+# Local reference download, not part of the authored project
+guava-docs.md
+
+# Recording files are added separately after choosing Git/LFS or a release asset
+/demo/video/*.mp4
+/demo/video/*.mov
+/demo/video/*.m4v
+/demo/video/*.webm

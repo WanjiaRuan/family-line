@@ -1,0 +1,11 @@
+# Reference shape only: use the IDs and assigned number from your own Guava project.
+# Keep the real guava.toml local; it is ignored by Git.
+project_id = "YOUR_GUAVA_PROJECT_ID"
+org_id = "YOUR_GUAVA_ORG_ID"
+name = "family-line"
+call_direction = "inbound"
+base_image = "python-sandbox:3.14"
+phone_number = "+15555550100"
+tier = "guava-seed"
+replicas = 1
+enable_healthcheck = true

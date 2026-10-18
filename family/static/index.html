@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Family Line · June's circle</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brandmark">f<span>·</span></span><span>Family Line<small>A little closer, every day.</small></span></a><div class="topright"><button class="quiet" data-action="settings">Connections <span>↗</span></button></div></header>
+<div class="workspace"><nav class="sidebar"><div class="family-avatar">J</div><h3 id="household-title">June's circle</h3><p id="member-role">Emma · Granddaughter</p><div class="navtabs" role="tablist"><button role="tab" aria-selected="true" id="nav-activity" data-tab="activity"><span>◷</span> Overview <small>01</small></button><button role="tab" aria-selected="false" id="nav-library" data-tab="library"><span>✳</span> Family assistant <small>02</small></button></div><div class="sidebar-note"><span class="tinycap">YOUR FAMILY CIRCLE</span><div id="family-people"></div><button data-action="onboarding" class="textlink">Edit family setup →</button></div><div class="sidebar-bottom"><span class="dot"></span> Your family, connected</div></nav>
+<main>
+<div class="page-heading"><div><div class="eyebrow" id="eyebrow">YOUR FAMILY, AT A GLANCE</div><h1 id="page-title">Your family’s updates.</h1><p id="page-description">See what needs you, then pick up where the assistant left off.</p></div><button class="primary" id="page-cta" data-action="go-chat">＋ Tell the assistant</button></div>
+<div id="onboarding-banner"></div>
+<div class="connection-strip"><span id="connection"><i class="dot amber"></i> Connecting…</span><span id="phone-line"></span></div>
+<section id="activity-view" role="tabpanel" aria-labelledby="nav-activity">
+<div class="activity-grid simplified-activity"><div><div class="sectionline"><h2>Needs your attention <span id="attention-count"></span></h2></div><div id="live-calls"></div><div id="issues" class="issue-list"></div>
+<div class="sectionline resource-heading"><h2>Latest call</h2><button class="textlink" data-action="onboarding">Family & sharing settings →</button></div><div id="conversations" class="latest-call"></div>
+<details class="quiet-details secondary-content"><summary>History & more</summary>
+<details class="quiet-details"><summary>Earlier calls</summary><div id="past-calls"></div></details>
+<details class="quiet-details"><summary>Completed follow-ups <span id="resolved-count"></span></summary><div id="resolved-issues"></div></details>
+<details class="quiet-details"><summary>Reminders</summary><button class="textlink" data-action="new-job">＋ Schedule reminder</button><div id="jobs"></div></details>
+<details class="quiet-details"><summary>Activity log</summary><div id="timeline"></div></details>
+<div class="circle-summary" id="circle-summary"></div>
+</details></div></div>
+</section>
+<section id="library-view" role="tabpanel" aria-labelledby="nav-library" hidden>
+<div class="conversation-layout simplified-conversation"><div class="conversation-main"><div class="chat-toolbar"><div><h2>A conversation, then a handover.</h2><p class="muted">Share a photo, a link, or a little context. We'll put it together.</p></div><button class="textlink" data-action="new-chat">New chat ＋</button></div><div class="conversation-chat" id="chat-body" aria-live="polite"></div><div class="attachment-progress" id="attachment-progress" role="status" hidden></div>
+<form id="chat-form"><label class="sr-only" for="chat-input">Message the family assistant</label><textarea id="chat-input" placeholder="Tell me about something at home… or paste a link" rows="3"></textarea><div class="composer-actions"><label class="attach-button" title="Attach a photo or document"><input type="file" id="file-upload" accept=".pdf,.txt,.md,.docx,.png,.jpg,.jpeg,.webp"><span>＋</span><span>Attach</span></label><button type="button" class="textlink" data-action="url">Add link</button><button type="button" class="mic" id="mic" aria-label="Record a voice message">◉ <span>Voice</span></button><span id="ai-status">Checking AI connection</span><button class="send" type="submit" aria-label="Send message">↑</button></div></form><p class="intake-footnote">Drafts stay in this conversation. Review and save a handover to make it available on calls.</p><p class="upload-hint">You can also drop a photo or file anywhere in this conversation. PDF · Word · image · text · up to 10 MB.</p>
+<details class="quiet-details"><summary>Earlier conversations</summary><div id="review-alert"></div><div id="web-history"></div></details></div>
+<aside class="saved-sidebar"><details id="asset-library" class="quiet-details"><summary>Saved information <span class="tag" id="saved-count"></span></summary><p class="muted">Reviewed household facts and source files available on calls.</p><label class="searchbox"><span>⌕</span><input id="search" placeholder="Search saved information" aria-label="Search saved information"></label><div id="records" class="record-grid"></div><h3 class="resource-heading">Source files</h3><div id="resources" class="resource-list"></div><button class="textlink" data-action="new-record">Add a record manually</button></details></aside></div>
+</section>
+<footer><span>Family Line</span><a class="textlink" href="/static/user-flow.html" target="_blank" rel="noopener">How Family Line works ↗</a></footer>
+</main></div>
+<dialog id="modal"><div class="modal-header"><h2 id="modal-title"></h2><button class="close" data-action="close" aria-label="Close">×</button></div><div id="modal-body"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+<script src="/static/app.js"></script></body></html>

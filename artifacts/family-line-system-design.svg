@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<title id="title">What makes Family Line work</title>
+<desc id="desc">Three overlapping circles: a familiar phone call, Guava's live conversational agent, and our code maintaining shared household context. Their intersection is Family Line: help with context that carries forward.</desc>
+<defs>
+  <clipPath id="phone"><circle cx="760" cy="490" r="310"/></clipPath>
+  <clipPath id="voice"><circle cx="1160" cy="490" r="310"/></clipPath>
+  <clipPath id="context"><circle cx="960" cy="700" r="310"/></clipPath>
+</defs>
+<rect width="1920" height="1080" fill="#f7f8f3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="96" y="64" fill="#285448" font-size="17" font-weight="700" letter-spacing="2.5">FAMILY LINE</text>
+<text x="96" y="119" fill="#203e36" font-size="44" font-weight="600">What makes Family Line work</text>
+<text x="96" y="157" fill="#64796d" font-size="23">Familiar access. Live conversation. Context that carries forward.</text>
+
+<circle cx="760" cy="490" r="310" fill="#dbe8d5" fill-opacity="0.75" stroke="#a6bea1" stroke-width="2"/>
+<circle cx="1160" cy="490" r="310" fill="#d9e7ed" fill-opacity="0.75" stroke="#a1bbc7" stroke-width="2"/>
+<circle cx="960" cy="700" r="310" fill="#eee3cf" fill-opacity="0.75" stroke="#cbbd9c" stroke-width="2"/>
+<g clip-path="url(#phone)"><g clip-path="url(#voice)"><circle cx="960" cy="700" r="310" fill="#285448"/></g></g>
+
+<!-- A familiar medium -->
+<g transform="translate(630 268)" fill="none" stroke="#446a4f" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M-17 -19 L-9 -22 L0 -8 L-7 -1 C-2 8 5 14 13 17 L20 10 L32 19 L29 28 C10 35 -21 10 -22 -10 Z" transform="translate(-4 -2) scale(.8)"/>
+</g>
+<text x="630" y="318" text-anchor="middle" fill="#507056" font-size="14" font-weight="700" letter-spacing="1.8">FAMILIAR MEDIUM</text>
+<text x="630" y="361" text-anchor="middle" fill="#29483c" font-size="35" font-weight="600">Phone call</text>
+<text x="630" y="405" text-anchor="middle" fill="#455d4c" font-size="21">Use the phone you know</text>
+<text x="630" y="438" text-anchor="middle" fill="#455d4c" font-size="21">Ask in everyday language</text>
+<text x="630" y="471" text-anchor="middle" fill="#455d4c" font-size="21">No new app to learn</text>
+
+<!-- Guava is an equal core of the system -->
+<g transform="translate(1290 268)" fill="none" stroke="#456b7a" stroke-width="4" stroke-linecap="round">
+ <path d="M-25 -6 V6 M-13 -17 V17 M0 -26 V26 M13 -13 V13 M25 -4 V4"/>
+</g>
+<text x="1290" y="318" text-anchor="middle" fill="#527181" font-size="14" font-weight="700" letter-spacing="1.8">LIVE CONVERSATION</text>
+<text x="1290" y="361" text-anchor="middle" fill="#294d5b" font-size="34" font-weight="600">Guava live agent</text>
+<text x="1290" y="405" text-anchor="middle" fill="#48616c" font-size="21">Understands the request</text>
+<text x="1290" y="438" text-anchor="middle" fill="#48616c" font-size="21">Asks follow-up questions</text>
+<text x="1290" y="471" text-anchor="middle" fill="#48616c" font-size="21">Guides the next step</text>
+
+<!-- Three-way intersection -->
+<text x="960" y="548" text-anchor="middle" fill="#ffffff" font-size="32" font-weight="600">Family Line</text>
+<path d="M935 568 H985" stroke="#87ab96" stroke-width="1.6"/>
+<text x="960" y="597" text-anchor="middle" fill="#edf4e9" font-size="17">Help with context</text>
+<text x="960" y="623" text-anchor="middle" fill="#edf4e9" font-size="16">that carries forward</text>
+
+<!-- Code and persistent information -->
+<g transform="translate(960 762)" fill="none" stroke="#867047" stroke-width="2.6" stroke-linejoin="round">
+ <ellipse cx="0" cy="-14" rx="22" ry="8"/>
+ <path d="M-22 -14 V15 C-22 26 22 26 22 15 V-14 M-22 0 C-22 11 22 11 22 0"/>
+</g>
+<text x="960" y="814" text-anchor="middle" fill="#8a754d" font-size="14" font-weight="700" letter-spacing="1.8">CONTEXT &amp; CONTINUITY</text>
+<text x="960" y="853" text-anchor="middle" fill="#5b5036" font-size="31" font-weight="600">Our code + shared context</text>
+<text x="960" y="894" text-anchor="middle" fill="#75674d" font-size="21">Retrieve household information</text>
+<text x="960" y="926" text-anchor="middle" fill="#75674d" font-size="21">Save calls, outcomes and requests</text>
+<text x="960" y="958" text-anchor="middle" fill="#75674d" font-size="21">Support family follow-up</text>
+<text x="960" y="986" text-anchor="middle" fill="#8a754d" font-size="13" font-weight="600" letter-spacing="1.4">PYTHON + SQLITE</text>
+
+<text x="96" y="1030" fill="#64796d" font-size="16">The conversation helps now.</text>
+<text x="1824" y="1030" text-anchor="end" fill="#64796d" font-size="16">The context helps the family pick up next.</text>
+</g></svg>

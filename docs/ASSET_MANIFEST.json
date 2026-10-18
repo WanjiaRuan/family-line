@@ -1,0 +1,95 @@
+{
+  "recorded_on": "2026-10-17",
+  "assets": [
+    {
+      "path": "artifacts/ai-query.png",
+      "bytes": 33371,
+      "sha256": "a44c7adf05d2b7f28a4756b47d1fdee7febce109f66b3bf6d2d714f936d6dbfb"
+    },
+    {
+      "path": "artifacts/callback-dashboard.png",
+      "bytes": 38184,
+      "sha256": "06212daf8e3dc5bdb92f6d5a5f8b18252cb02d7fc7a88b8bc3ee4f0c1398a25f"
+    },
+    {
+      "path": "artifacts/dashboard.png",
+      "bytes": 28176,
+      "sha256": "c1f4724f29bbc24655cfb4ab6719bef69d9fc5fce9663ca504710ff93a280914"
+    },
+    {
+      "path": "artifacts/english-conversation.png",
+      "bytes": 39517,
+      "sha256": "7d75d22a876718e8468f591dfb7fbaacf008d91c903040d6597bb68b8645a998"
+    },
+    {
+      "path": "artifacts/english-overview.png",
+      "bytes": 35311,
+      "sha256": "cc841d77be3c30f3db99eaa8e7ad0745f6c0a010d5b5b13eeb712a80aeade02f"
+    },
+    {
+      "path": "artifacts/family-line-dashboard.png",
+      "bytes": 38464,
+      "sha256": "7dd8ce068566853dc833e2c9fdcd0fb9ec3620aafda0d48b9cacdb48184c6d9e"
+    },
+    {
+      "path": "artifacts/family-line-flow-page.png",
+      "bytes": 51799,
+      "sha256": "cb80b1b1b0e90c94b993d503f6a8a912b2c653157e708bbefc49f5fcced3b9ac"
+    },
+    {
+      "path": "artifacts/family-line-opening-story.png",
+      "bytes": 2147817,
+      "sha256": "a2b146346ab1bea5875b57f37474ab4d3a70c4cc1cbf264f2f855e6f4e4e293a"
+    },
+    {
+      "path": "artifacts/family-line-simple-dashboard.png",
+      "bytes": 35750,
+      "sha256": "62886bb79b25d6d7857695c4e1bcd48e099066b162921907295846c3dec67760"
+    },
+    {
+      "path": "artifacts/family-line-system-design.png",
+      "bytes": 490015,
+      "sha256": "e41bfad0460e18de647d90fb47ae952fca8736d66c9c60e88c01f5bff6afd00e"
+    },
+    {
+      "path": "artifacts/family-line-system-design.svg",
+      "bytes": 4796,
+      "sha256": "2aca898ae3f78fc3cae8b814cd0fac49a52738e41445090c0ed3b388f751d0b8"
+    },
+    {
+      "path": "artifacts/family-line-user-flow.png",
+      "bytes": 281295,
+      "sha256": "858cde4eb0d884227b0040b8b800346ae60e69a2a9d91492daedca78bfe2c192"
+    },
+    {
+      "path": "artifacts/family-line-user-flow.svg",
+      "bytes": 9127,
+      "sha256": "2b9dc5754c3091e432d2b44b5a8c989420ad1f9a02b1acd503321c011be2e5be"
+    },
+    {
+      "path": "examples/demo-remote.png",
+      "bytes": 5816,
+      "sha256": "5860d64c5228750e331b125be459f7bedc1518309a87dd8e387debf71bc20de0"
+    },
+    {
+      "path": "examples/tv-demo/roku-tv-remote.jpg",
+      "bytes": 2169096,
+      "sha256": "11bb5f9154ec133609c5ede9c3f6946f0df262f32530bad7787188ebecf992d6"
+    },
+    {
+      "path": "family/static/demo/roku-tv-remote.jpg",
+      "bytes": 2169096,
+      "sha256": "11bb5f9154ec133609c5ede9c3f6946f0df262f32530bad7787188ebecf992d6"
+    },
+    {
+      "path": "family/static/family-line-user-flow.png",
+      "bytes": 281295,
+      "sha256": "858cde4eb0d884227b0040b8b800346ae60e69a2a9d91492daedca78bfe2c192"
+    },
+    {
+      "path": "family/static/family-line-user-flow.svg",
+      "bytes": 9127,
+      "sha256": "2b9dc5754c3091e432d2b44b5a8c989420ad1f9a02b1acd503321c011be2e5be"
+    }
+  ]
+}
